@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Trayectoria — Tu Nombre</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><h1>Tu Nombre</h1></div>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="about.html" class="active">Trayectoria</a>
+        <a href="services.html">Servicios</a>
+        <a href="portfolio.html">Portafolio</a>
+        <a href="contact.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Sobre mí y trayectoria</h2>
+      <p>Escribe aquí tu biografía profesional: formación, roles relevantes, años de experiencia y tus diferencias competitivas.</p>
+
+      <h3>Línea del tiempo</h3>
+      <ul class="timeline">
+        <li><strong>2021–2025</strong> — Puesto / Organización en Suiza</li>
+        <li><strong>2018–2021</strong> — Puesto / Organización en México</li>
+        <li><strong>2010–2018</strong> — Varios proyectos freelance y consultoría</li>
+      </ul>
+
+      <h3>Certificaciones</h3>
+      <ul>
+        <li>Certificación A</li>
+        <li>Certificación B</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year2"></span> Tu Nombre</p>
+    </div>
+  </footer>
+
+<script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>

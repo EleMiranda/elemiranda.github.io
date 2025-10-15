@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Servicios — Tu Nombre</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><h1>Tu Nombre</h1></div>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Trayectoria</a>
+        <a href="services.html" class="active">Servicios</a>
+        <a href="portfolio.html">Portafolio</a>
+        <a href="contact.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Servicios y experiencia</h2>
+      <div class="service-list">
+        <article class="service">
+          <h3>Estrategia de marketing digital</h3>
+          <p>Diseño de estrategias integradas para adquisición y retención.</p>
+        </article>
+        <article class="service">
+          <h3>Reclutamiento en marketing</h3>
+          <p>Selección y evaluación de talento especializado para equipos de marketing.</p>
+        </article>
+        <article class="service">
+          <h3>Branding y comunicación</h3>
+          <p>Desarrollo de identidad, mensajes y guías de estilo.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year3"></span> Tu Nombre</p>
+    </div>
+  </footer>
+
+<script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>
