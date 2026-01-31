@@ -36,8 +36,9 @@ body{margin:0;background:var(--bg);color:#102a43;line-height:1.5}
 
 .mini-portfolio .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
 .portfolio .cards{display:grid;grid-template-columns:1fr;gap:16px}
-.card{background:var(--card);border-radius:12px;padding:12px;box-shadow:var(--shadow)}
-.card img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+.card{background:var(--card);border-radius:12px;padding:12px;box-shadow:var(--shadow);container-type: inline-size}
+.card img{width:100%;height:140px;object-fit:cover;border-radius:8px;object-position: 0px center;transition: object-position 0.08s linear}
+.card img.keep-left {object-position: -120px center;}
 
 .service-list{display:grid;gap:12px}
 .service{background:var(--card);padding:14px;border-radius:10px;box-shadow:var(--shadow)}
